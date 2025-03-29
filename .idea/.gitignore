@@ -6,3 +6,8 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/.idea/
+/homeworks.iml
+/modules.xml
+/vcs.xml
+/workspace.xml
