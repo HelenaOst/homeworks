@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    margin: 1%;
+}
+header{
+    height: 60vh;
+    background: #1890e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 90vh;
+    background: #1890e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b568a;
+    height: 70vh;
+    width: 30%;
+}
+section p{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 2rem;
+    color: white;
+}
