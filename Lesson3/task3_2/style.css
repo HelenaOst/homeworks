@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.pink{
+    background: pink;
+}
+.black{
+    background: black;
+    color: white;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    text-align: justify;
+    padding: 0% 5%;
+}
+h1{
+    padding-bottom: 2%;
+}
