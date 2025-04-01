@@ -17,6 +17,7 @@ section{
 }
 section p{
     width: 90%;
+    font-size: 20px;
 }
 section h1{
     font-size: 2rem;
