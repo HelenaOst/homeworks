@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 150px;
+    background-color: #ecb1b1;
+}
+span{
+    font-family: "Embed code", sans-serif;
+    font-size: 400px;
+}
+/*----------------------------------------------*/
+@keyframes LetterPuls {
+    from{
+        transform: scale(1);
+        color: black;
+    }
+    to{
+        transform: scale(1.1);
+        color: red;
+    }
+}
+@keyframes LetterMove {
+    from{
+    rotate: 0deg;
+    }
+    to{
+    rotate: 360deg;
+    }
+}
+/*----------------------------------------------*/
+.letter_h, .letter_e, .letter_l2, .letter_o{
+    animation: LetterPuls 1s ease-out infinite alternate;
+}
+.letter_l{
+    animation: LetterMove 2s linear infinite;
+}
