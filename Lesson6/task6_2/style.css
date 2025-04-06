@@ -19,8 +19,8 @@ h1{
     font-family: "Roboto", sans-serif;
 }
 form{
-    width: 30vw;
-    height: 45vh;
+    width: 35vw;
+    height: 55vh;
     border-radius: 15px;
     background-color: white;
 }
@@ -40,21 +40,20 @@ form{
     gap: 15px;
     padding: 10px;
 }
-.checkbox_submit{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    gap: 100px;
-}
 input[type="text"], input[type="password"]{
-    width: 20em;
-    height: 2em;
+    width: 300px;
+    height: 40px;
 }
 input[type="submit"]{
-    width: 5em;
-    height: 2em;
+    width: 100px;
+    height: 30px;
     border-radius: 15px;
     background-color: rgba(68, 168, 157, 0.34);
     border: 1px solid darkgray;
+}
+.checkbox_submit{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
