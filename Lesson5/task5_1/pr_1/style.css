@@ -1,25 +1,45 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 div{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: pink;
+    gap: 50px;
 }
-div img{
-    width: 15vw;
-    height: auto;
-    animation: pulse 1s infinite ease-in-out alternate;
+span{
+    font-size: 100px;
 }
-@keyframes pulse {
+@keyframes LetterWave {
     from{
         transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.4);
     }
+}
+/*----------------------------------------------*/
+
+.letter_h{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+}
+
+.letter_e{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.2s;;
+}
+.letter_l{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.3s;;
+}
+.letter_l2{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.4s;
+}
+.letter_o{
+    animation: LetterWave 1s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
 }
