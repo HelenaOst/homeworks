@@ -24,8 +24,8 @@ body{
 }
 form{
     border: 1px solid darkgrey;
-    width: 27vw;
-    height: 65vh;
+    width: 350px;
+    height: 420px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -36,10 +36,11 @@ form{
     justify-content: center;
     align-items: center;
     border: 1px solid darkgrey;
-    width: 27vw;
-    height: 10vh;
+    width: 350px;
+    height: 70px;
     gap: 5px;
     font-weight: bold;
+    font-size: 15px;
 }
 .fb{
     width: 25px;
@@ -78,7 +79,7 @@ input[type="submit"]{
     margin-bottom: 15px;
 }
 .facebook a{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #375184;
 }
