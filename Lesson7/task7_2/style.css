@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: Inter, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+/*-----------------------HEADER-------------------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 113px;
+    background: #24204A;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    gap: 720px;
+}
+.main_logo{
+    color: #E5E5E5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+    width: 71px;
+    height: 24px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 75px;
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navi{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+/*.............MAIN_SEC1............................................*/
+/*.main_inform{*/
+/*    height: 579px;*/
+/*}*/
+.bulb{
+    height: 579px;
+    background: #24204A;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 500px;
+}
+
+.bulb_left{
+    width: 570px;
+    height: 366px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 45px;
+    padding-left: 115px;
+    padding-top: 85px;
+}
+.img_bulb{
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    margin-right: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 67px;
+    margin-bottom: 101px;
+}
+img {
+    width: 318px;
+    height: 318px;
+    margin: 48px 28px 45px 29px;
+}
+h1{
+    width: 261px;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.pseudo_button{
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: justify;*/
+}
+.text_bulb{
+    width: 570px;
+    height: 85px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0.8px;
+}
+button{
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/*------------------------MAIN SEC2--------------------------------------------------*/
+.middle_sec{
+    /*height: 764px;*/
+    background: #071341;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.small-blocks{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 131px;
+    padding: 50px 0;
+}
+.color_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18.05px;
+}
+.color_block img{
+    width: 32.082px;
+    height: 32px;
+    position: absolute;
+    top: -35px;
+    left: -17px;
+}
+.text_box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.number{
+    width: 38.098px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.label{
+    width: 101.26px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+.icon-orange{
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF6853;
+    position: relative;
+}
+.icon-red{
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF537C;
+    position: relative;
+}
+.icon-green{
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #80D2C4;
+    position: relative;
+}
+.icon-blue{
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    position: relative;
+}
+.icon-lightgreen{
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #95CB7C;
+    position: relative;
+}
+.middle_title{
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+}
+.middle_p{
+    width: 545px;
+    height: 24px;
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.big_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-bottom: 152px;
+}
+.card img{
+    width: 52px;
+    height: 52px;
+    margin-top: 44px;
+    margin-bottom: 0;
+}
+.card{
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+}
+.card p{
+    width: 178px;
+    height: 60px;
+    color:  #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+}
+footer{
+    height: 94px;
+    background: #071341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    width: 96px;
+    height: 24.039px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+}
