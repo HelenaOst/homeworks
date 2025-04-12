@@ -26,6 +26,9 @@ body{
     position: relative;
     z-index: -2;
 }
+.green_card{
+    border: 4px solid #65856E;
+}
 h2{
     font-family: Inter, sans-serif;
     font-size: 40px;
