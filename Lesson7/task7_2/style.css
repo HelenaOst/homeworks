@@ -7,6 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    background: black;
 }
 .wrapper-1400{
     width: 1400px;
@@ -15,14 +16,15 @@ body{
 /*-----------------------HEADER-------------------------------------*/
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 113px;
     background: #24204A;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    position: relative;
+    position: fixed;
     z-index: 1;
-    gap: 720px;
+    margin-right: 115px;
+    width: 1400px;
 }
 .main_logo{
     color: #E5E5E5;
@@ -34,27 +36,25 @@ header{
     width: 71px;
     height: 24px;
     padding-left: 115px;
+    margin-right: 580px;
 }
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 115px;
+    margin-right: 115px;
 }
 ul{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 64px;
+    gap: 75px;
 }
-li {
+.navi{
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.navi{
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -64,14 +64,13 @@ li {
 }
 /*.............MAIN_SEC1............................................*/
 .bulb{
-    height: 579px;
+    height: 692px;
     background: #24204A;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 208px;
-    padding-left: 115px;
-    padding-right: 132px;
+    /*gap: 208px;*/
+    padding-top: 110px;
 }
 
 .bulb_left{
@@ -83,6 +82,7 @@ li {
     flex-direction: column;
     gap: 45px;
     padding-top: 85px;
+    padding-left: 115px;
 }
 .img_bulb{
     width: 375px;
@@ -95,14 +95,16 @@ li {
     align-items: center;
     margin-top: 67px;
     margin-bottom: 101px;
+    margin-right: 132px;
 }
 img {
     width: 318px;
     height: 318px;
-    margin: 48px 28px 45px 29px;
+    /*margin: 48px 28px 45px 29px;*/
 }
 h1{
     width: 261px;
+    height: 88px;
     color: #FFF;
     font-size: 36px;
     font-style: normal;
@@ -126,13 +128,13 @@ h1{
     align-items: center;
 }
 .text_bulb{
-    width: 570px;
+    width: 565px;
     height: 85px;
-    color: #8E88C1;
+    color:#8E88C1;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20.8px;
+    line-height: 130%;
     letter-spacing: 0.8px;
 }
 button{
@@ -176,8 +178,8 @@ button{
     width: 32.082px;
     height: 32px;
     position: absolute;
-    top: -35px;
-    left: -17px;
+    top: 12px;
+    left: 12px;
 }
 .text_box{
     display: flex;
@@ -256,13 +258,15 @@ button{
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .big_cards{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding-bottom: 152px;
+    margin-bottom: 100px;
 }
 .card img{
     width: 52px;
