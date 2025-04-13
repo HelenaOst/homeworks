@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+body{
+    width: 100%;
+    padding: 32px 16px;
+}
+    .wrapper {
+        flex-direction: column;
+    }
+.block{
+    width: 343px;
+}
+    .block p{
+        height: 44px;
+    }
+    .block img{
+        display: flex;
+        width: 128px;
+        height: 128px;
+        padding: 10px;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
