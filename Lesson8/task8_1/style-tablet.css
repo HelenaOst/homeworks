@@ -1,0 +1,22 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+body{
+    padding: 32px 24px;
+}
+    .main-container{
+        width: 720px;
+    }
+    .card{
+        width: 218px;
+    }
+    .card p{
+    }
+    .big-text h2{
+        height: 48px;
+    }
+    .big-text p{
+        padding-top: 30px;
+    }
+    .big-text img{
+        margin-top: 18px;
+    }
+}

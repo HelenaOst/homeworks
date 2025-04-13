@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px){
+    body{
+        padding: 32px 16px;
+    }
+    .main-container{
+        width: 100%;
+
+        gap: 40px;
+    }
+    .top-row, .bottom-row{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .card{
+        width: 100%;
+    }
+}
