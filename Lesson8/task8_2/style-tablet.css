@@ -1,9 +1,7 @@
-@media screen and (min-width: 769px) and (max-width: 1155px) {
-    body{
-        padding: 48px 24px;
-    }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .wrapper {
         flex-wrap: wrap;
+        padding: 64px 48px;
     }
     .block{
         width: 348px;
