@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .wrapper{
+            display: grid;
+            height: 100vh;
+            background-color: grey;
+            /* grid-template-columns: 100px 150px 100px; -- ділимо грід на стовпчики*/
+            /*grid-template-columns: 100px 50% 100px; -- середній стовпчик займе 50% простору гріда*/
+            /*grid-template-columns: 100px 50% 100vw; - 3-й стовпчик займе 10-ту частину простору гріда*/
+            /*grid-template-columns: 1fr 1fr 1fr;*/
+            /*grid-template-columns: 1fr 2fr 1fr; -- середня фракція буде в 2 р більше за дві останніх*/
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+        .item{
+            background-color: lightpink;
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        /*   через геп роз'їхались всі об'єктиі внизу, і побоках */
+        }
+    /* звернутись до конкретного блоку в гріді через нтх */
+        .wrapper div:nth-child(5){
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="item">
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>
